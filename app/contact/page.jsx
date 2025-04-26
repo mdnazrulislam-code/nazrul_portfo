@@ -53,8 +53,7 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent">Let's work together</h3>
               <p className="text-white/60">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
-                nihil sapiente pariatur id totam.
+              I’m a data professional with hands-on expertise in Power BI, Microsoft Fabric, Excel, and SQL, specializing in turning raw data into actionable insights. With a strong foundation in data modeling, visualization, and automation, I create impactful dashboards and reports that drive smarter business decisions. My experience spans across industries, helping clients unlock the full potential of their data.
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -71,9 +70,11 @@ const Contact = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est">Web Development</SelectItem>
-                    <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="mst">Logo Design</SelectItem>
+                    <SelectItem value="est">Data Analytics</SelectItem>
+                    <SelectItem value="cst">Azure Data Engineering</SelectItem>
+                    <SelectItem value="mst">Microsoft Power BI Development</SelectItem>
+                    <SelectItem value="mst">Tableau Development</SelectItem>
+                    <SelectItem value="mst">Microsoft Fabric Specialist</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>

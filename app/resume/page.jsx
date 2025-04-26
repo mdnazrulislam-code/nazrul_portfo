@@ -15,31 +15,31 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Hi, I’m Nazrul—a passionate data professional with a background in engineering and a deep love for transforming data into impactful stories. With hands-on experience in Power BI, Microsoft Fabric, Excel, SQL, and cloud technologies like Azure, I help businesses make smarter decisions through data-driven insights. Whether it's building dashboards, automating workflows, or uncovering trends, I bring clarity to complexity with every project.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldValue: "Nazrul Islam",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldValue: "(+880) 171 308 6265",
     },
     {
       fieldName: "Experience",
-      fieldValue: "12+ Years",
+      fieldValue: "5+ Years",
     },
     {
       fieldName: "Skype",
-      fieldValue: "luke.01",
+      fieldValue: "arfanislamabir",
     },
     {
       fieldName: "Nationality",
-      fieldValue: "American",
+      fieldValue: "Bangladeshi",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "contact@nazruls.com",
     },
     {
       fieldName: "Freelance",
@@ -47,7 +47,7 @@ const about = {
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "English, Bangla",
     },
   ],
 };
@@ -57,38 +57,28 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "With over 5 years of experience in data and cloud technologies, I’ve worked across diverse roles—from QA Automation Engineer to Power BI Developer and Data Consultant. I specialize in building end-to-end data solutions using tools like Power BI, Microsoft Fabric, Azure, SQL, and Python. Currently, I’m working at cien.ai, crafting complex DAX logic and data models.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Cien Inc.",
+      position: "Microsoft Power BI Developer",
+      duration: "2024 - Present",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
+      company: "Omdena",
+      position: "Data Scientist",
+      duration: "Project Contract",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
+      company: "Traeger, Inc. ",
+      position: "Data Integration Automation specialist",
+      duration: "2023 - 2024",
     },
     {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
-    },
+      company: "Freelance(Upwork)",
+      position: "Data Analyst",
+      duration: "2019 - 2023",
+    }
   ],
 };
 
@@ -97,38 +87,33 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "My academic background laid a strong foundation in algorithms, systems design, and data processing—skills I now apply to real-world data challenges every day.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
+      institution: "365 Data Science",
+      degree: "Full Stack Data Sciene Bootcamp",
       duration: "2023",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
+      institution: "Coursera",
+      degree: "Google Data Analytics Certification (Professional)",
       duration: "2022",
     },
     {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
+      institution: "Coursera",
+      degree: "IBM Data Science",
+      duration: "2022-23",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
+      institution: "Udemy",
+      degree: "BI & Analytics",
       duration: "2019",
     },
     {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
-    },
+      institution: "University of Science and Technology, Chittagong",
+      degree: "Msc in Computer",
+      duration: "2021 - 2022",
+    }
   ],
 };
 
