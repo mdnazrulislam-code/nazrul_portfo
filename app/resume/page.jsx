@@ -1,5 +1,9 @@
 "use client";
 
+import { FaDatabase, FaCloud, FaFileExcel } from "react-icons/fa";
+import { SiMicrosoftazure, SiJupyter, SiTableau } from "react-icons/si";
+
+
 import {
   FaHtml5,
   FaCss3,
@@ -10,6 +14,21 @@ import {
 } from "react-icons/fa";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+
+
+const skills1 = {
+  title: "My Tools",
+  description: "These are the tools I use regularly.",
+  skillList: [
+    { name: "Azure", icon: <SiMicrosoftazure /> },
+    { name: "Jupyter", icon: <SiJupyter /> },
+    { name: "Excel", icon: <FaFileExcel /> },
+    { name: "Tableau", icon: <SiTableau /> },
+    { name: "Data Science", icon: <FaDatabase /> },
+    { name: "Cloud", icon: <FaCloud /> },
+  ],
+};
+
 
 // about data
 const about = {
@@ -121,7 +140,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "I’m a Data Analyst, Power BI Developer, and Business Analyst with 5+ years of experience turning complex data into clear insights. I specialize in advanced DAX, SQL, and data modeling, using tools like Power BI, Azure Data Factory, and Databricks. I bridge business needs with technical solutions, delivering impactful dashboards and reports across domains like sales, healthcare, and customer analytics.",
   skillList: [
     {
       icon: <FaHtml5 />,
