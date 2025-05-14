@@ -1,33 +1,13 @@
 "use client";
 
-import { FaDatabase, FaCloud, FaFileExcel } from "react-icons/fa";
-import { SiMicrosoftazure, SiJupyter, SiTableau } from "react-icons/si";
+import { FaDatabase, FaAws, FaFileExcel } from "react-icons/fa";
+import { SiScikitlearn,SiTensorflow,SiPytorch,SiApachespark,SiChatbot , SiMysql , SiTableau,SiDatabricks } from "react-icons/si";
+import { VscAzure } from "react-icons/vsc";
+import { BsFileBarGraph } from "react-icons/bs";
+import { BiSolidBusiness,BiLogoPostgresql  } from "react-icons/bi";
+import { PiChartLineUpBold } from "react-icons/pi";
 
 
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaFigma,
-  FaNodeJs,
-} from "react-icons/fa";
-
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
-
-
-const skills1 = {
-  title: "My Tools",
-  description: "These are the tools I use regularly.",
-  skillList: [
-    { name: "Azure", icon: <SiMicrosoftazure /> },
-    { name: "Jupyter", icon: <SiJupyter /> },
-    { name: "Excel", icon: <FaFileExcel /> },
-    { name: "Tableau", icon: <SiTableau /> },
-    { name: "Data Science", icon: <FaDatabase /> },
-    { name: "Cloud", icon: <FaCloud /> },
-  ],
-};
 
 
 // about data
@@ -143,36 +123,68 @@ const skills = {
     "I’m a Data Analyst, Power BI Developer, and Business Analyst with 5+ years of experience turning complex data into clear insights. I specialize in advanced DAX, SQL, and data modeling, using tools like Power BI, Azure Data Factory, and Databricks. I bridge business needs with technical solutions, delivering impactful dashboards and reports across domains like sales, healthcare, and customer analytics.",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <FaFileExcel  />,
+      name: "Microsoft Excel",
     },
     {
-      icon: <FaCss3 />,
-      name: "css 3",
+      icon: <BsFileBarGraph />,
+      name: "Microsoft Power BIS",
     },
     {
-      icon: <FaJs />,
-      name: "javascript",
+      icon: <SiTableau />,
+      name: "Tableau",
     },
     {
-      icon: <FaReact />,
-      name: "react.js",
+      icon: <VscAzure/>,
+      name: "Azure",
     },
     {
-      icon: <SiNextdotjs />,
-      name: "next.js",
+      icon: <FaAws/>,
+      name: "AWS",
     },
     {
-      icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      icon: <SiDatabricks />,
+      name: "Databricks",
     },
     {
-      icon: <FaNodeJs />,
-      name: "node.js",
+      icon: <SiApachespark />,
+      name: "Apache Spark",
     },
     {
-      icon: <FaFigma />,
-      name: "figma",
+      icon: <FaDatabase />,
+      name: "Database",
+    },
+    {
+      icon: <BiSolidBusiness />,
+      name: "Business Analytics",
+    },
+    {
+      icon: <PiChartLineUpBold />,
+      name: "Data Analytics",
+    },
+    {
+      icon: <BiLogoPostgresql />,
+      name: "Postgres",
+    },
+    {
+      icon: <SiMysql  />,
+      name: "MySQL",
+    },
+    {
+      icon: <SiScikitlearn />,
+      name: "Machine Learning",
+    },
+    {
+      icon: <SiTensorflow />,
+      name: "Deep Learning",
+    },
+    {
+      icon: <SiPytorch  />,
+      name: "Neural Network",
+    },
+    {
+      icon: <SiChatbot  />,
+      name: "Generative AI",
     },
   ],
 };
